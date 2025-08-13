@@ -1,0 +1,16 @@
+{% extends 'pages/base.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+<div class="container my-5">
+    <h2>Contact Us</h2>
+    <p>If you have any questions, feel free to reach out!</p>
+
+    <ul class="list-group">
+        <li class="list-group-item"><strong>Email:</strong> {{ email }}</li>
+        <li class="list-group-item"><strong>Address:</strong> {{ address }}</li>
+        <li class="list-group-item"><strong>Phone:</strong> {{ phone }}</li>
+    </ul>
+</div>
+{% endblock %}
